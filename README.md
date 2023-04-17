@@ -8,12 +8,16 @@ As part of model training, we have trained LSTM nodels, with reasoning as to why
 
 ## Features List
 1.   Modular project structure
-2.   Python package setup configured, ready to deploy on [pypi](https://pypi.org/)
+2.   Python package setup configured, package available on [pypi](https://pypi.org/)
 3.   Connecting to MS SQL Databse by [pyodbc](https://mkleehammer.github.io/pyodbc/), you can install latest MS SQL driver for python from [here](https://learn.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc?view=sql-server-ver16)
-4.   Logging to MS SQL by [Calling Stored Procedures](https://github.com/mkleehammer/pyodbc/wiki/Calling-Stored-Procedures)
+4.   Logging and Exception handling to MS SQL by [Calling Stored Procedures](https://github.com/mkleehammer/pyodbc/wiki/Calling-Stored-Procedures)
+
 
 ## MS SQL
 You can find create table and stored Procedure scripts under "references" folder
+
+## Download Datasets
+You can download required datasets from [here](https://drive.google.com/drive/folders/1TK9k41RT8Nf3IhzerNWHpEqWztsk2gAP) and keep it in "data/raw" folder
 
 ## Plan of Action
 1.   Load **IMDb Movie Reviews dataset (50,000 reviews)**
